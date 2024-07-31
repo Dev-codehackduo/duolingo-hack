@@ -118,9 +118,9 @@ try {
 		xp += response.xpGain;
 	}
 
-	console.log(`🎉 You won ${xp} XP`);
+	console.log(`🎉 you have ${xp} XP`);
 } catch (error) {
-	console.log("❌ Something went wrong");
+	console.log("❌ die ");
 	if (error instanceof Error) {
 		console.log(error.message);
 	}
