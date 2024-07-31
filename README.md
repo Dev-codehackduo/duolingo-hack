@@ -53,5 +53,5 @@ node --env-file=.env index.js
 You can also load the env in the terminal like so:
 
 ```
-DUOLINGO_JWT=... node index.js
+HAPPY_DUOLINGO_DIE=... node index.js
 ```
